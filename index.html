@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=10.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Work Day Scheduler</title>
+</head>
+
+<body>
+  <header class="jumbotron">
+    <h1 class="display-30">Work Day Scheduler</h1>
+    <p class="lead">A simple calendar app for scheduling your work day</p>
+    <p id="currentDay" class="lead"></p>
+
+    <head>
+      <script type="text/JavaScript" src="https://MomentJS.com/downloads/moment-with-locales.js"></script>
+    </head>
+
+    <body>
+      <h3></h3>
+      <div id="datedisplay" style="font-size:15px;"></div>
+      <script type="text/JavaScript">
+           var a = moment.locale("en");
+           var c = moment().format("LLLL");
+           document.getElementById("datedisplay").innerHTML = c;
+        </script>
+    </body>
+
+  </header>
+  <div class="container.">
+    <div class="row">
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">9</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">10</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">11</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">12</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">1</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">2</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">3</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">4</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-2">5</div>
+      <div class="shadow-none p-3 mb-5 bg-light rounded col-sm-8"></div>
+      <div class=" shadow-none p-3 mb-5 bg-light rounded col-sm-2"></div>
+
+    </div>
+
+  </div>
+
+  <div class="form-group">
+    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+  </div>
+  </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script>
+    </script>
+</body>
+
+</html>
